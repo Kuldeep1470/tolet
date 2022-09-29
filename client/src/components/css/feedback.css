@@ -1,0 +1,103 @@
+.feedback_form{
+    border: 1px solid #eee;
+    margin: 2vw 20vw ;
+    padding: 2vw;
+    background-color: white;
+}
+
+
+.form-group input,
+.form-group select{
+    margin: 3.2vw 1.2vw 0vw 1.2vw;
+    font-size: 1vw;
+    width: 94%;
+    height: 2vw;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    padding-left:.3vw ;
+}
+
+.form-group textarea{       
+    margin: 3.2vw 0vw 0vw 0vw;
+    padding-left:.4vw ;
+    font-size: 1vw;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    width: 94%;
+    height: 2vw ;
+}
+
+
+
+.send_feedback{
+    margin: 2vw 0vw;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    border-radius: 5px ;
+}
+
+.Rate_toletplus{
+    margin: .5vw 1.5vw ;
+    font-size: 1vw;
+}
+.fielderr{
+    margin: 0vw 1.5vw;
+    font-size: .8vw;
+}
+
+@media screen and (max-width:1000px) {
+    .feedback_form{
+        border: 1px solid #eee;
+        margin: 2vw;
+    }
+    
+    
+    .form-group input,
+    .form-group select{
+        margin: 6.6vw 3.6vw 0vw 3.6vw;
+        font-size: 3vw;
+        width: 94%;
+        height: 6vw;
+        border: none;
+        border-bottom: 1px solid #bbb;
+        padding-left:.3vw ;
+    }
+    
+    .form-group textarea{       
+        margin: 6.6vw 0vw 0vw 0vw;
+        padding-left: .4vw ;
+        font-size: 3vw;
+        border: none;
+        border-bottom: 1px solid #bbb;
+        width: 94%;
+        height: 4vw ;
+    }
+    
+    
+    
+    .send_feedback{
+        background-color: #04AA6D;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 17px;
+        font-family: Raleway;
+        cursor: pointer;
+        border-radius: 5px ;
+    }
+    
+    .Rate_toletplus{
+        margin: 1.5vw 4.5vw ;
+        font-size: 3vw;
+    }
+    .fielderr{
+        margin: 0vw 1.5vw;
+        font-size: .8vw;
+    }
+    
+}

@@ -1,0 +1,66 @@
+.enquiries_box{
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+}
+
+
+.info_box{
+    margin: 2%;
+    border-radius: 15px;
+    padding: 1vw 0vw;
+    width: 330px;
+    box-shadow: 0px 0px 2px #d8dbdd;
+}
+
+@media screen and (max-width:570px) {
+.info_box{margin: 10% 2%auto;}
+}
+
+.account_icon{
+    color: #f1f1f1;
+    float: left;
+    font-size: 60px;
+    margin: 9px 7.5px 0px 15px 
+}
+
+.Name{
+    overflow-x: scroll;
+    color: #555555;
+    font-size: 18px;
+    margin: 15px 15px 0px 15px;
+}
+
+.Individual{
+    color: #555555;
+    font-size: 18px;
+    margin: 3px 15px 15px 15px;
+    
+}
+
+.mobile{
+    align-items: center;
+    display: inline-block;
+    color: #555;
+    font-size: 17px;
+    margin: 27.5px -7.5px 0px 25px;
+    
+}
+.mobile_box,
+.email_box{
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.email{
+    overflow-x: scroll;
+    white-space:pre-wrap;
+    display: inline-block;
+    color: #555;
+    font-size: 17px;
+    margin: 8px 8px 15px 25px;
+
+}

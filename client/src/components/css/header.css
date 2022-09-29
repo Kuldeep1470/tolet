@@ -1,0 +1,193 @@
+@media screen and (min-width:1000px) {
+   
+    header{font-family:  'Quicksand', 'Circular' ,sans-serif, Arial, Helvetica; }
+
+    
+    /* navbar styles  */
+    .nav{
+        z-index: 5;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        padding: 6px 0vw 0px;
+        background: black;
+        min-height: 45px;   
+    }
+
+    .nav_element_01{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* css for wesite logo */
+    #logo{
+        transition: all .4s ease-in-out ;
+        font-size: 18px;
+        color: white;
+        float: left;
+        text-decoration: none;
+        margin: 0vw 3vw;
+}
+#logo a{
+    color: white;
+    text-decoration: none;
+}
+
+/* for center the links in navigation bar  */
+/* .nav_ele{
+    text-decoration: none;
+    color: white;
+    padding:0vw 1.5vw;
+    font-size:1.5vw;
+} */
+.nav_ele>button{
+    position: relative;
+    left: 60vw;
+    top: .5vw;
+    font-size: 1vw;
+    border-radius: 3px;
+    padding: 0.4vw 1vw;
+    margin: none;
+    color: dodgerblue;
+    margin: auto;
+}
+
+/* hover property for navbar tags */
+.nav_ele>button:hover{
+    color:#8a2be2;
+}
+/* upper header part end hare  */
+
+
+/* manu bar start hare */
+
+/* Dropup content (Hidden by Default) */
+
+.menulist0 {
+    width: 18vw;
+    padding: 1vw 0vw;
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    top: 3vw;
+    right: 3.6%;
+    background-color: white ;
+    min-width: 11vw;
+    z-index: 5;
+    box-shadow: 1px 1px 1px #c7c7c7;
+}
+    
+
+.userinfo{
+    padding: 1vw 2vw ;
+}
+#username{
+    font-size: 1.5vw; 
+    text-transform: capitalize; 
+    font-weight: bold; 
+    color: #1f1f1f;
+}
+
+.editprofile{
+    margin-top: .4vw;
+    font-size: .8vw;
+}
+
+.editprofile:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Links inside the dropup */
+.submenulist{
+    padding: 1vw 2vw ;
+    font-size: 1.1vw;
+    text-decoration: none;
+}
+.menulist a{
+    text-decoration: none;
+    color: black;
+}
+
+.menulist hr{
+    border: none; 
+    height: 1px; 
+    background-color: #fafafa; 
+}
+
+#submenulist0{
+    display: none;
+}
+
+/* Change color of dropup links on hover */
+.submenulist:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.submenulist:active{background-color: #dbdbdb; }
+
+.show{
+    display: block;
+}
+/* menu bar end hare  */
+
+
+
+/* to fix menu position after scrolling */
+.usericon2{
+    z-index: 1;
+    position: fixed;
+      top: .2vw;
+      right: 0%;
+    }
+    
+    
+    
+    
+
+    
+    
+
+    
+    /* postproperty page  */
+    
+    .propertyinfo{
+        width: 80vw;
+        height: auto;
+        
+    }
+    
+    /* postproprty page end hare */
+    
+    
+    /* header part end hare */
+
+
+    input {
+        writing-mode: horizontal-tb !important;
+       
+        text-rendering: auto;
+        color: -internal-light-dark(blue);
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        background-color: -internal-light-dark(rgb(255, 255, 255), white);
+        margin: 0em;
+        padding: 1px 2px;
+        border-width: 1px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        outline: 1px blue;
+    }
+    
+    
+}

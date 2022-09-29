@@ -1,0 +1,86 @@
+
+
+
+/* this class for footer_links part of the class */
+.footer_links{
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 0.5vw 12vw 0vw;
+}
+
+.footer_links ul { 
+    padding: 0vw 16vw;
+    justify-content: space-around;
+    display: flex;}
+
+/* this is for inside of footer_link class  */
+.footer_links li {
+    font-weight: bold;
+    margin-top:.1vw ;
+    color: #555555;
+    list-style-type: none
+}
+
+.footer_links li a{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1vw;
+    padding: 1vw 2vw 0.4vw 2vw;
+    text-decoration: none;
+    color: #444;
+}
+
+.footer_links .footer_links_active {border-bottom: .5vw solid #04AA6D;}
+
+
+.footer_links li:hover{ background-color: #efefff;}
+
+/* To group all slides  */
+.deshboard_navigation_slides{
+    padding: 1.4vw;
+    height: 70vh;
+}
+
+.footer_links_discription{
+    box-shadow: 0px 0px 5px #f2eafd;
+    margin-top: 10px;
+    height: 40vw;
+    border: 1px solid #eee;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+
+    .main{
+        margin: 10vw 0vw;
+    }
+    .footer_links{
+        margin-top:2vw;
+
+    }
+    .footer_links li a{font-weight:400; font-size: 3.5vw; color: #555;}
+    .footer_links li{
+        font-size: 3.5vw;
+        
+    }
+    .footer_links ul{ 
+        padding: 0vw 0vw;
+        white-space: nowrap;
+        overflow: scroll ;
+        text-overflow: ellipsis;
+
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+      }
+
+      .footer_links .footer_links_active {border-bottom: 1vw solid #04AA6D;}
+
+
+
+}

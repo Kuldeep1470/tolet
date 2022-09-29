@@ -1,0 +1,354 @@
+@media screen and (min-width: 1000px) {
+  .property_detaile_container,
+  .propertyaddress {
+    padding: 0vw 10vw;
+  }
+
+  /* this class for back button  */
+  .backbtn {
+    display: none;
+  }
+
+  div {
+    text-transform: capitalize;
+  }
+
+  .propertyaddress {
+    box-shadow: none;
+    grid-template-areas:
+      "for deatiles deatiles deatiles deatiles deatiles deatiles "
+      "for address address address address address address ";
+    display: grid;
+    color: rgb(50, 50, 50);
+    border-right: 1px solid rgb(228, 228, 228);
+    background-color: white;
+    border-bottom: 1px solid #eee;
+  }
+
+  .propertcontainer{
+    margin-top: 2vw;
+  }
+
+  /* classes for propertyaddress cointerners all three dives */
+  .for {
+    font-size: 1.2vw;
+    grid-area: for;
+    border-right: 1px solid rgb(228, 228, 228);
+    padding: 1vw 0vw 1vw 2vw;
+  }
+  .propertydeatiles {
+    font-size: 1.8vw;
+    grid-area: deatiles;
+    padding: 0.6vw 1vw;
+  }
+
+  .propertyaddress .address {
+    grid-area: address;
+    font-size: 1.2vw;
+    padding: 0.1vw 1.1vw 0.5vw 1.1vw;
+  }
+
+  .property_images {
+    width: fit-content;
+    margin: auto;
+  }
+
+  /* image slideshow container start hare  */
+
+
+  /* Slideshow co ntainer */
+  .slideshow_container {
+    border-radius: 1vw;
+    margin: auto;
+    max-width: 65vw;
+    height: 35vw;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    flex: none;
+  }
+
+  /* Hide the images by default */
+  .image_slide_box {
+    min-width: 65vw;
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+  }
+
+  .image_slide_box img{
+    height: 35vw;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 25vw;
+    width: auto;
+    margin-right: 1vw;
+    padding: 2.2vw 1.5vw;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 2.5vw;
+    transition: 0.6s ease;
+    user-select: none;
+    border: none;
+  }
+
+  .next {
+    box-shadow: -2px 4px 8px rgb(0 0 0 / 10%);
+    right: 16.51vw;
+  }
+  .prev{
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 10%);
+  }
+
+  .prev:active,
+  .next:active {
+    background-color: #f2f2f2;
+  }
+
+
+ 
+  .flex_item {
+    display: flex;
+  }
+
+  /* property inframation bloew the property images */
+
+  .propertyinfo1 {
+    padding: 1% 1%;
+    display: grid;
+    grid-template-areas:
+      "info"
+      "wrong";
+    float: right;
+  }
+
+  /* this class is property inforamtion in price section */
+  .info {
+    background-color: white;
+    margin-bottom: 3%;
+    border-radius: 1vw;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    box-shadow: none;
+    grid-area: info;
+    grid-template-areas:
+      "price0 area0"
+      "price area"
+      "owener owener";
+    display: grid;
+    padding: 8% 5% 0% 5%;
+    color: rgb(88, 88, 88);
+  }
+
+  .owener {
+    color: white;
+    width: 80%;
+    height: 3vw;
+    background-color: rgb(255, 81, 0);
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    border: 2px solid gray;
+    margin: 8%auto;
+    grid-area: owener;
+    font-weight: bolder;
+  }
+  .owener:active {
+    background-color: rgb(255, 51, 0);
+  }
+
+  /* sub-clsses  for info class */
+  .price0 {
+    border-top-left-radius: 10px;
+    padding: 0.8vw 0vw 0vw 2vw;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    grid-area: price0;
+    font-size: 1.2vw;
+    color: black;
+  }
+  .area0 {
+    border-top-right-radius: 10px;
+    padding: 0.8vw 0vw 0vw 2vw;
+    border-top: 1px solid rgba(209, 209, 209, 0.8);
+    border-right: 1px solid rgba(209, 209, 209, 0.8);
+    grid-area: area0;
+    font-size: 1.2vw;
+    color: black;
+  }
+  /* sub classes for info class */
+  .price1 {
+    border-bottom-left-radius: 10px;
+    padding: 0.1vw 0vw 0.8vw 2vw;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    border-top: 1px solid white;
+    border-right: 1px solid rgba(209, 209, 209, 0.8);
+    font-size: 1.3vw;
+    grid-area: price;
+  }
+
+  .area1 {
+    border-bottom-right-radius: 10px;
+    padding: 0.1vw 0vw 0.8vw 2vw;
+    border-bottom: 1px solid rgba(209, 209, 209, 0.8);
+    border-right: 1px solid rgba(209, 209, 209, 0.8);
+    font-size: 1.3vw;
+    grid-area: area;
+  }
+
+  /* for take report about wrong information*/
+  .wrong {
+    background-color: white;
+    border-radius: 0.9vw;
+    box-shadow: none;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    width: 25vw;
+    padding: 3% 3% 0% 3%;
+    grid-area: wrong;
+    display: grid;
+    grid-template-areas:
+      "pwrong pwrong pwrong"
+      "button1 button2 button3";
+  }
+  /* sub classes for buttons for wrong class */
+  .pwrong {
+    font-size: 1.1vw;
+    grid-area: pwrong;
+    margin: 2%auto 2%auto;
+  }
+  .button1 {
+    grid-area: button1;
+  }
+  .button2 {
+    grid-area: button2;
+  }
+  .button3 {
+    grid-area: button3;
+  }
+  .button1,
+  .button2,
+  .button3 {
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    background-color: white;
+    margin: 5% 3% 0% 0%;
+    font-size: 0.9vw;
+    padding: 0.4vw 0.1vw;
+  }
+  .button1:active,
+  .button2:active,
+  .button3:active {
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 255, 0.103);
+  }
+
+  .propertyinfo2 {
+    width: 52vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-areas:
+      "fecilities"
+      "discription";
+    display: inline-block;
+  }
+
+  /* for available fecilityes for the property  */
+  .fecilities {
+    background-color: white;
+    padding: 1% 2% 5% 2%;
+    border-radius: 1vw;
+    box-shadow: none;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    display: grid;
+    grid-template-areas:"age0 age parking0 parking"
+    "owner0 owner floor0 floor"
+    "security0 security none none";
+    grid-area: fecilities;
+  }
+
+  /* fecility cub classes */
+  .agebuild0 {
+    grid-template-areas: age0;
+  }
+  .agebuild {
+    grid-template-areas: age;
+  }
+  .parking0 {
+    grid-template-areas: parking0;
+  }
+  .parking {
+    grid-template-areas: parking;
+  }
+  .floor0 {
+    grid-template-areas: floor0;
+  }
+  .floor {
+    grid-template-areas: floor;
+  }
+  .security0 {
+    grid-template-areas: security0;
+  }
+  .security {
+    grid-template-areas: security;
+  }
+  .owner0 {
+    grid-template-areas: owner0;
+  }
+  .owner {
+    grid-template-areas: owner;
+  }
+
+  .agebuild0,
+  .parking0,
+  .owner0,
+  .floor0,
+  .security0 {
+    padding-bottom: 0.2vw;
+    margin: 1.5vw 0vw 0vw 2vw;
+    font-size: 1vw;
+    border-bottom: 1px solid rgba(209, 209, 209, 0.8);
+    color: rgb(68, 68, 68);
+  }
+
+  .fecilities .agebuild,
+  .fecilities .parking,
+  .fecilities .owner,
+  .fecilities .floor,
+  .fecilities .security {
+    margin: 1.5vw 1vw 0vw 0vw;
+    font-size: 0.99vw;
+    border-bottom: 1px solid rgba(209, 209, 209, 0.8);
+    color: #717171;
+  }
+
+  /* user given discription for property  */
+  .discription {
+    background-color: white;
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 1vw;
+    box-shadow: none;
+    border: 1px solid rgba(209, 209, 209, 0.8);
+    grid-area: discription;
+    display: grid;
+  }
+
+  /* sub classes for discription class */
+  .discription p {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: rgb(68, 68, 68);
+  }
+
+  .discription .article {
+    text-transform: initial;
+    font-size: 1vw;
+    color: #717171;
+    line-height: 1.5vw;
+  }
+}

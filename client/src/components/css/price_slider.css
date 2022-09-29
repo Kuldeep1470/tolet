@@ -1,0 +1,472 @@
+@media screen and (min-width:1000px) {
+    
+/* price slider part start from hare  */
+
+.price_filter{
+    font-size: 2vh;
+    border: 1px solid rgb(221, 220, 220);
+    margin: 1.5vw .5vw .5vw .5vw;
+    padding: .4vw 2%;
+    height: 2vw;
+    border-radius: 23vh;
+    width: auto;
+    background-color: white;
+  }
+  
+  
+  .price_filter>button{
+    
+    font-size: 2vh;
+    border: none;
+    background-color: transparent;
+  }
+  
+  
+            /* filter price slider */
+            /* filter price slider */
+  
+  /* this class for close price slider */
+  
+  .slider_box {
+    display: none;
+    margin: .8% 0%;
+    position: fixed;
+    top: 10.5%;
+    left: 7%;
+    z-index: 10;
+    width: 400px;
+    background-color: #fff;
+    height: fit-content;
+    padding: 1.5% 0%;
+    box-shadow: 0px 0px 3px #bbbcbc;
+    border-radius: 10px;
+  }
+  
+    /* Add Zoom Animation */
+    .slider_box {
+        -webkit-animation: animatezoom 1s;
+        animation: animatezoom 0.14s;
+      }
+  
+  
+  
+  .slider {
+    max-width: 350px;
+    position: relative;
+    height: 5px;
+    margin: 1%auto auto;
+  }
+  
+  .slider>div {
+    position: absolute;
+    left: 13px;
+    right: 15px;
+    height: 5px;
+  }
+  
+  .slider>div>[inverse-left] {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #CCC;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  
+  .slider>div>[inverse-right] {
+    position: absolute;
+    right: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #CCC;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  
+  
+  .slider>div>[range] {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 14px;
+    background-color: #d02128;
+  }
+  
+  .slider>div>[thumb] {
+    position: absolute;
+    top: -7px;
+    z-index: 2;
+    height: 20px;
+    width: 20px;
+    text-align: left;
+    margin-left: -11px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .slider>input[type=range] {
+    position: absolute;
+    pointer-events: none;
+    -webkit-appearance: none;
+    z-index: 3;
+    height: 14px;
+    top: -2px;
+    width: 100%;
+    opacity: 0;
+  }
+  
+  div.slider>input[type=range]:focus::-webkit-slider-runnable-track {
+    background: transparent;
+    border: transparent;
+  }
+  
+  div.slider>input[type=range]:focus {
+    outline: none;
+  }
+  
+  div.slider>input[type=range]::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    border: 0 none;
+    background: red;
+    -webkit-appearance: none;
+  }
+  
+  div.slider>input[type=range]::-ms-fill-lower {
+    background: transparent;
+    border: 0 none;
+  }
+  
+  div.slider>input[type=range]::-ms-fill-upper {
+    background: transparent;
+    border: 0 none;
+  }
+  
+  div.slider>input[type=range]::-ms-tooltip {
+    display: none;
+  }
+  
+  .slider>div>[sign] {
+    opacity: 0;
+    position: absolute;
+    margin-left: -11px;
+    top: -39px;
+    z-index: 3;
+    background-color: #d02128;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .slider>div>[sign]:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    border-radius: 16px;
+    top: 19px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top-width: 16px;
+    border-top-style: solid;
+    border-top-color: #d02128;
+  }
+  
+  .slider>div>[sign]>span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  
+  .slider:hover>div>[sign] {
+    opacity: 1;
+  }
+  
+  .price_box{
+    margin-top: 10%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .min_price,
+  .max_price {
+    width: fit-content;
+    border: 1px solid #ddd;
+    padding: 1% 3%;
+    border-radius: 10px;
+  }
+  
+  .price_slider_button{display: flex; justify-content: space-around;}
+  .price_slider_button #price_slider{
+    padding: 10px 22px;
+    font-size: 17px;
+    font-family: Raleway;
+    color: white;
+    background-color: #d02128;
+    border: none;        
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .close_slider:hover{
+    text-decoration: underline;
+    color: #d02128;
+    cursor: pointer;
+  }
+  
+  
+  /* price slider part end  hare  */
+  
+    
+}
+
+@media screen and (max-width:1000px) {
+    /* price slider part start from hare  */
+
+.price_filter{
+    font-size: 2vh;
+    border: 1px solid rgb(221, 220, 220);
+    margin: 1.5vw .5vw .5vw .5vw;
+    padding: .7vh 2%;
+    height: 4vh;
+    border-radius: 23vh;
+    width: auto;
+    background-color: white;
+  }
+  
+  
+  .price_filter>button{
+    
+    font-size: 2vh;
+    border: none;
+    background-color: transparent;
+  }
+  
+  
+            /* filter price slider */
+            /* filter price slider */
+  
+  /* this class for close price slider */
+  
+  .slider_box {
+    display: none;
+    margin: 0% 0%;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #fff;
+    height: fit-content;
+    padding: 5% 0% 1.5%;
+    box-shadow: 0px 0px 15px -2px #dbdbdb;
+    border-radius: 10px;
+  }
+  
+    /* Add Zoom Animation */
+    .slider_box {
+        animation: eg .5s ease-out;
+      }
+
+
+      @keyframes eg {
+        from{bottom: -20%; opacity: 0;}
+        to{bottom: -0%; opacity: 1;}
+      }
+
+  .slider {
+    max-width: 300px;
+    position: relative;
+    height: 5px;
+    margin: 1%auto ;
+  }
+  
+  .slider>div {
+    position: absolute;
+    left: 13px;
+    right: 15px;
+    height: 5px;
+  }
+  
+  .slider>div>[inverse-left] {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #CCC;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  
+  .slider>div>[inverse-right] {
+    position: absolute;
+    right: 0;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #CCC;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  
+  
+  .slider>div>[range] {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 14px;
+    background-color: #d02128;
+  }
+  
+  .slider>div>[thumb] {
+    position: absolute;
+    top: -7px;
+    z-index: 2;
+    height: 20px;
+    width: 20px;
+    text-align: left;
+    margin-left: -11px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .slider>input[type=range] {
+    position: absolute;
+    pointer-events: none;
+    -webkit-appearance: none;
+    z-index: 3;
+    height: 14px;
+    top: -2px;
+    width: 100%;
+    opacity: 0;
+  }
+  
+  div.slider>input[type=range]:focus::-webkit-slider-runnable-track {
+    background: transparent;
+    border: transparent;
+  }
+  
+  div.slider>input[type=range]:focus {
+    outline: none;
+  }
+  
+  div.slider>input[type=range]::-webkit-slider-thumb {
+    pointer-events: all;
+    width: 28px;
+    height: 28px;
+    border-radius: 0px;
+    border: 0 none;
+    background: red;
+    -webkit-appearance: none;
+  }
+  
+  div.slider>input[type=range]::-ms-fill-lower {
+    background: transparent;
+    border: 0 none;
+  }
+  
+  div.slider>input[type=range]::-ms-fill-upper {
+    background: transparent;
+    border: 0 none;
+  }
+  
+  div.slider>input[type=range]::-ms-tooltip {
+    display: none;
+  }
+  
+  .slider>div>[sign] {
+    opacity: 0;
+    position: absolute;
+    margin-left: -11px;
+    top: -39px;
+    z-index: 3;
+    background-color: #d02128;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .slider>div>[sign]:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    border-radius: 16px;
+    top: 19px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top-width: 16px;
+    border-top-style: solid;
+    border-top-color: #d02128;
+  }
+  
+  .slider>div>[sign]>span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  
+  .slider:hover>div>[sign] {
+    opacity: 1;
+  }
+  
+  .price_box{
+    margin-top: 10%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .min_price,
+  .max_price {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    border: 1px solid #ddd;
+    padding: 1% 8% 1% 2%;
+    border-radius: 10px;
+  }
+  
+  .price_slider_button{display: flex; justify-content: space-around;}
+  .price_slider_button #price_slider{
+    padding: 10px 22px;
+    font-size: 17px;
+    font-family: Raleway;
+    color: white;
+    background-color: #d02128;
+    border: none;        
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .close_slider:hover{
+    text-decoration: underline;
+    color: #d02128;
+    cursor: pointer;
+  }
+  
+  
+  /* price slider part end  hare  */
+  
+  
+}

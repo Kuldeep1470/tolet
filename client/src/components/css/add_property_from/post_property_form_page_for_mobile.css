@@ -1,0 +1,228 @@
+@media screen and (max-width:1000px) {
+
+    
+    
+   
+    
+    main{
+        margin-top: 12vw;
+    }
+    
+    .property_info {
+        font-size: 1.9vw;
+        padding: .4vw;
+        margin: .5%auto ;
+        margin-top: 1.3vw;
+        text-align: center;
+        background-color: white;
+}
+
+
+
+
+
+.formbox {
+    min-height: 82vh;
+    background-color: #ffffff;
+    padding: 2vw 3vw;
+    margin: auto;
+    font-family: Raleway;
+}
+    
+    /* to gove style to all lables and input */
+    .formbox .tab label{
+     font-size: 3.5vw;
+     font-weight: bold;
+     color: #474747;
+     margin: 2vw 0vw 0vw 0vw;
+    }
+    
+    .formbox .tab input,
+    .formbox .tab select{
+        outline: none;
+    margin: 1.5vw 0vw 2vw 0vw;
+    border: 1px solid #bbbbbb;
+    font-size: 3.5vw;
+    padding: 2vw 3vw;
+    color: #555;
+}
+.tab select{background-color: white;}
+
+
+/* Hide all steps by default: */
+.tab {
+    padding: 5vw;
+    /* display: none; */
+    /* min-height: 150vw; */
+}
+
+/* styles for frist tab start from hare */
+
+
+.available_for,
+.ownership_type,
+.type,
+.property_age,
+.floor,
+.furnished{
+    display: grid;
+    padding: 1vw; 
+    margin: 4px;
+}
+
+
+.property_area{
+    display: grid;
+    padding: 0vw 1vw;
+    margin: 0px 4px;
+}
+
+#area_unit{
+    display: flex;
+    float: right;
+    margin: 0vw;
+    border: none;
+    font-size: 3.5vw;
+    padding: 1vw;
+    color: #555;
+}
+#property_area{
+    width: 75%;
+    margin: 0vw;
+    border: none;
+    font-size: 3.5vw;
+    padding: 2vw 4vw;
+    color: #555;
+}
+.area_unit{
+    border: 1px solid #bbbbbb;
+    font-size: 4vw;
+    padding: 0vw;
+    color: #555;
+}
+
+/* styles for frist tab end hare */
+
+
+
+.location_deatiles {
+    margin-top: 4vw;
+    padding: 2vw;
+}
+
+.city{
+    grid-area: city;
+    display: grid;
+    margin: 0%;
+}
+
+.locality,
+.landmark,
+.address{display: grid; padding: 1vw;}
+
+
+
+.availabel_from,
+.lockin_period,
+.lease_duration,
+.deposit,
+.rent_negotiable,
+.monthaly_maintenance,
+.expected_rent{
+    padding: 1vw;
+    display: grid;
+}
+
+
+.parking,
+.washroom,
+.security{padding: 1vw; display: grid;}
+
+
+
+
+
+.additional_information{display: grid;}
+
+#discription{
+    margin: .5% 0%;
+    width: auto;
+    padding: 1%;
+}
+
+
+/* Mark input boxes that gets an error on validation: */
+.invalid {
+    background-color: #ffdddd;
+}
+
+
+.formbox #prevBtn {
+    margin: 5vw 8vw ;
+    float: left;
+    background-color: #bbbbbb;
+}
+
+.formbox #nextBtn{
+    margin: 5vw 8vw ;
+    float: right;
+}
+
+.formbox button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+#submit{
+    position: fixed;
+    bottom: 13.2vw;
+    width: 100vw;
+    margin: 0vw;
+    left: 0px;
+    font-size: 7vw;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    margin: .4vw 1vw;
+    padding: .3vw;
+    display: inline-block;
+    /* opacity: .9; */
+    /* border-bottom: 2px solid rgba(95, 158, 160, 0.7); */
+}
+
+.step.active {
+    width: 101vw;
+    position: fixed;
+    opacity: 1;
+    top: 9.6vw;
+    font-size: 5vw;
+    justify-content: center;
+    background: cadetblue;
+    left: -5px;
+    align-items: center;
+    padding: 3vw;
+    color: white;
+    font-weight: bolder;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    border-bottom: 2px solid cadetblue;
+}
+
+
+.submit{ margin:3% 45% 0% 45%;}
+
+
+}

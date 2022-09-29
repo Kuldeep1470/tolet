@@ -1,0 +1,322 @@
+   @media screen and (min-width:700px)     {
+       
+       /* signup&login page start hare */
+       
+       /* thies classes use for login & singup page  */
+    .signup,.login{
+        z-index: 5;
+        padding: .3vw .7vw;
+        margin: .5vw;
+        background-color: white;
+        /* display: none; */
+        text-decoration: none;
+        color: white;
+        border-radius: 3vw;
+        border:.1vw solid white;
+        
+        
+    }
+    
+    
+    
+    /* these styles for styling inside singnup & login page  */
+    /* input css */
+    .userdata input { 
+        width: 100%;
+        padding:2.5% 5%;
+        margin: 0.2vw 0vw 1vw;
+        display: inline-block;
+        border: 1px solid #ccc;   
+        box-sizing: border-box;
+    }
+    
+    /* for giving padding to user entred data  */
+    .userdata{
+        background-color: white;
+        padding:9% 6% 6%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #bbb;
+}
+
+
+        
+        /* Extra styles for the cancel button */
+        /* .cancelbtn {
+            color: white;
+            width: auto;
+            padding:1vh 1vw;
+            background-color:rgb(255, 81, 0);
+            border: gray 1px solid ;
+            border-radius: 3px;
+            font-size: 120%;
+}      
+.cancelbtn:hover{ 
+    /*for giving cancelbtn hover property*/     
+    /* background-color: #cf4318d8; */
+
+/* this class for forgate passward */
+span.fpsw{
+    float:right;
+    padding: 1%;
+}
+
+/* after clicking btn singnup & login box css  */
+.signupbox{
+    position: fixed;
+    /* z-index: 5; */
+    left: 0%; 
+    top: 0%;
+    width:100vw;
+    height:85vh;
+    overflow: hidden;
+    background-color: white;
+}
+.loginbox  {
+    position: fixed;
+    z-index: 5;
+    left: 0%; 
+    top: 0%;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* for login &signup btn to give extra styles */
+.signupboxanimate{
+    width: 250px;
+    z-index: 5vw;
+    margin: 20vh auto;
+}
+.loginboxanimate{
+    z-index: 5vw;
+    margin: 15%auto;
+    width: 280px;
+}
+
+
+.signup2,
+.login2{
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    background-color: lightseagreen;
+    font-size: 100%;
+    border-radius: 0px;
+    border: 0px ;
+}
+
+.login2:hover,
+.signup2:hover{
+    background-color: rgb(15, 146, 139);
+    }
+    .or{
+        color: rgba(0, 0, 0, 0.603);
+        font-size: 3vh;
+        margin: 0% 48%; 
+        
+    }
+    .login3,
+    .signup3{ 
+        margin-top:10px ;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    
+    .close{
+        padding:.5vw 1.5vw;
+        float: right;
+        color: rgba(0, 0, 0, 0.507);
+        font-size:150%;
+        font-weight:bolder;
+    }
+    .close:hover,
+    .close:focus{
+        color:lightseagreen;
+        cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .signupboxanimate,
+  .loginboxanimate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+    
+    /* for giving login & signup box animation for displaying */
+    @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+    }
+    /* signup&login page end hare */
+}
+
+@media screen and (max-width:700px) {
+
+       /* signup&login page start hare */
+       
+       /* thies classes use for login & singup page  */
+       .signup,.login{
+        z-index: 5;
+        padding: .3vw .7vw;
+        margin: .5vw;
+        background-color: rgba(255, 245, 245, 0.089);
+        /* display: none; */
+        text-decoration: none;
+        color: white;
+        border-radius: 3vw;
+        border:.1vw solid white;
+        
+    }
+    
+    
+    
+    /* these styles for styling inside singnup & login page  */
+    /* input css */
+    .userdata input { 
+        width: 100%;
+        padding:2.5% 5%;
+        margin: 2.2% 0vw 6%;
+        display: inline-block;
+        border: 1px solid #ccc;   
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    /* for giving padding to user entred data  */
+    .userdata{
+        margin: auto 5% ;
+        background-color: white;
+        padding:12% 6%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #bbb;
+}
+
+
+
+        
+        /* Extra styles for the cancel button */
+        /* .cancelbtn {
+            color: white;
+            width: auto;
+            padding:1vh 1vw;
+            background-color:rgb(255, 81, 0);
+            border: gray 1px solid ;
+            border-radius: 3px;
+            font-size: 120%;
+}      
+.cancelbtn:hover{ 
+    /*for giving cancelbtn hover property*/     
+    /* background-color: #cf4318d8; */
+
+/* this class for forgate passward */
+span.fpsw{
+    float:right;
+    padding: 1%;
+}
+
+/* after clicking btn singnup & login box css  */
+.signupbox{
+    /* position: fixed; */
+    /* z-index: 5; */
+    left: 0%;
+    top: 0%;
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+    background-color: whitesmoke
+}
+.loginbox  {
+    position: fixed;
+    z-index: 5;
+    left: 0%;
+    top: 0%;
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+    background-color: whitesmoke
+}
+
+/* for login &signup btn to give extra styles */
+.signupboxanimate{
+    width: 100%;
+    z-index: 5;
+    margin: 10%auto;
+}
+.loginboxanimate{
+    z-index: 5;
+    margin: 50% auto;
+    width: 100%;
+}
+
+
+.signup2,
+.login2{
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    background-color: lightseagreen;
+    font-size: 100%;
+    border-radius: 0px;
+    border: 0px ;
+}
+
+.login2:hover,
+.signup2:hover{
+    background-color: rgb(15, 146, 139);
+    }
+    .or{
+        color: rgba(0, 0, 0, 0.603);
+        font-size: 3vh;
+        margin: 0% 48%; 
+        
+    }
+    .login3,
+    .signup3{ 
+        margin-top:10px ;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    
+    .close{
+        padding:.5vw 8.5%;
+        float: right;
+        color: rgba(0, 0, 0, 0.507);
+        font-size:150%;
+        font-weight:bolder;
+    }
+    .close:hover,
+    .close:focus{
+        color:lightseagreen;
+        cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .signupboxanimate,
+  .loginboxanimate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.2s
+    }
+    
+    /* for giving login & signup box animation for displaying */
+    @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+    }
+    
+    @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+    }
+    /* signup&login page end hare */
+    
+}

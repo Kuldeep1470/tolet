@@ -1,0 +1,86 @@
+.about{
+    font-family: system-ui;
+    min-width: 250px;
+    max-width:800px;
+    padding:1vw 2vw 1.5vw;
+    min-height: 35vw;
+    border: 1px solid #eee;
+    margin: 1%auto;
+    background-color: #fbfeff;
+}
+
+.company_info> label{
+    color: #333;
+}
+
+.company_info> p{
+    text-align: justify;
+    color: #333;
+}
+
+.company_info> p>a{
+    color: #333;
+    text-decoration: none;
+}
+.company_info> p>a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.team{
+    margin: 8%auto;
+}
+
+.team>.team_box{
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.team_member{
+    width:20vw;
+    display: grid;
+    text-align: center;
+}
+
+.team_member>img{
+ margin: auto;
+ height: 10vw;
+ width: 10vw;
+ border-radius: 100px;
+}
+.team_member>.name{margin-top: 3%; font-size: 1.4vw;}
+.team_member>.degree{margin-top: 3%; font-size: 1.2vw;}
+.team_member>.member_info{margin-top: 3%;  font-size: 1vw;}
+
+@media screen and (max-width:1000px) {
+
+    
+.company_info> p{
+    text-align: justify;
+    color: #333;
+}
+
+    .team{text-align: center;}
+
+    .team>.team_box{
+        display: grid;
+    }
+
+        .team_member{
+            margin-top: 5vw;
+            width: 100%;
+        }
+
+    .team_member>img{
+        margin: auto;
+        height: 40vw;
+        width: 40vw;
+        border-radius: 100px;
+    }
+
+    .team_member>.name{margin-top: 3%; font-size: 4.5vw;}
+.team_member>.degree{margin-top: 3%; font-size: 4vw;}
+.team_member>.member_info{margin-top: 4%; font-size: 1.5vw; font-size: 3vw;}
+    
+
+}

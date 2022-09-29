@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1abe22e4.css",
+    "main.js": "/static/js/main.b0b4b1e7.js",
+    "static/js/787.43528efb.chunk.js": "/static/js/787.43528efb.chunk.js",
+    "static/media/front.jpg": "/static/media/front.0c8abe8bdb3eabbf601b.jpg",
+    "static/media/flat.jpg": "/static/media/flat.dc00a7d8263220e18669.jpg",
+    "static/media/home.jpg": "/static/media/home.bdbdc72f1e6668e69a79.jpg",
+    "static/media/hostel.jpg": "/static/media/hostel.e357cef10b6f4b8f2706.jpg",
+    "static/media/warehouse.jpg": "/static/media/warehouse.977658a511046b5466de.jpg",
+    "static/media/shop.jpg": "/static/media/shop.3910da3c137733e4b2bd.jpg",
+    "static/media/office.jpg": "/static/media/office.c4b399a0e5f7d48d2626.jpg",
+    "static/media/land.jpg": "/static/media/land.1ce51318da315ce7a0ac.jpg",
+    "static/media/room.jpg": "/static/media/room.0559c6cf58ab72253ad6.jpg",
+    "index.html": "/index.html",
+    "main.1abe22e4.css.map": "/static/css/main.1abe22e4.css.map",
+    "main.b0b4b1e7.js.map": "/static/js/main.b0b4b1e7.js.map",
+    "787.43528efb.chunk.js.map": "/static/js/787.43528efb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1abe22e4.css",
+    "static/js/main.b0b4b1e7.js"
+  ]
+}

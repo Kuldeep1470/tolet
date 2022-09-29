@@ -1,0 +1,98 @@
+@media screen and (max-width:1000px) {
+
+    
+    /* for include font-femily in html */
+    header{
+      background-color: white;
+        font-family:  'Quicksand', 'Circular' ,sans-serif, Arial, Helvetica;
+        border-bottom: 1px solid #e1e1e1;
+        z-index: 5;
+    }
+    
+    /* header part start  */
+    
+    /* navbar styles  */
+    
+    /* css for wesite logo */
+    #logo{
+      text-decoration: none;
+      text-align: center;
+      z-index: 5;
+      color: white;
+      position: fixed;
+      font-size: 4vw;
+      background: black;
+      width: 100vw;
+      transform: 2s;
+      padding: 2vw 0vw;
+    }
+    #logo:hover{
+    cursor: pointer;
+    }
+    
+    /* for center the links in navigation bar  */
+    .nav_ele{
+        display: none;
+    }
+     
+    /* manu bar start hare */
+    
+    .lines{
+      display: none;
+  }
+
+    
+    .sticky{
+        padding: 2vw 0%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background-color: white;
+        box-shadow:1px 1px 3px rgba(0, 0, 0, 0.2);
+        
+      }
+    
+      /* for apperring logo after scrolling */
+      .logo2 h1{
+            display: none;
+    }
+      /* to change the size of search bar after scrolling */
+      .searchbar2{
+        width: 80vw;
+        margin:auto;
+        padding:.2vw 5vw;
+        transition: .5s ease-in;
+      }
+      /* to fix menu position after scrolling */
+      #usericon{
+        display: none;
+       }
+      
+    .a1{
+        margin-top: 16vw;
+    }
+      
+    
+
+
+    #search{display: none;}
+    
+    
+    
+   
+    
+    .propertyinfo{
+        width: 80vw;
+        height: auto;
+        
+    }
+    
+    /* postproprty page end hare */
+    
+    
+    /* header part end hare */
+    
+
+    
+}

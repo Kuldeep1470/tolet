@@ -1,0 +1,197 @@
+@media screen and (max-width: 1000px){ 
+    /* footer part start hare */
+
+    #footer{
+        text-align: center;
+        bottom: 0%;
+        background: white;
+        padding: 2vw;
+        z-index: 1;
+        border: 1px solid #f1f1f1;
+    }
+
+    #footer ul li a{
+        padding: 0vh 2.5vw;
+        font-size: 3vw;
+    }
+    #footer .sub-footer a{
+        font-size: 1.4vw;
+        text-decoration: none;
+    }
+
+    #navbar,
+#foot{
+    display: none;
+}
+
+    #navbar{
+       padding :0vh;
+        margin-bottom: -1vw;
+        display: table;
+        position: relative;
+        z-index: 5;
+        position: fixed; /* Make it stick/fixed */
+        bottom:0; /* Stay on bottom */
+        width:100vw; /* Full width */
+        transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
+        background-color: rgb(0, 0, 0);
+        border: none;
+    }
+
+    #navbar button a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #navbar button{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding:0vw;
+        background-color: black;
+        border: none;
+        width: 33%;
+    }
+    #navbar button:active {
+        background-color: rgb(82, 255, 111);
+    }
+    
+    .menu {
+        /* display: none;     */
+    }
+    
+    .menulist0 {
+        font-family: 'Quicksand', 'Circular' ;
+        display: none;
+        position: fixed;
+        z-index: 2;
+        left: 0%; 
+        top: -1vw;
+        width:100vw;
+        height:100vh;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-top: auto;
+        font-size: 6vw;
+        border-radius: 0px;
+    } 
+
+    .menulist >a {
+        text-decoration: none;
+        color: black;
+
+    }
+    
+    .menulist{
+        width: 70vw;
+        background-color: white;
+        position: static;
+        padding-bottom:20vw ;   
+    }
+    
+    
+    .userinfo{
+        padding: 2vw 0vw 5vw 8vw;
+     }
+
+     .userinfo >a{
+        text-decoration: none;
+        color: black;
+     }
+
+    #username{
+    font-size: 8vw; 
+    text-transform: capitalize; 
+    font-weight: bold; 
+    color: #2b2b2b; 
+    }
+    
+    
+    .editprofile{
+        padding: .5vw;
+        font-size: 3.5vw;
+    }
+    
+    
+      /* Links inside the dropup  */
+    .submenulist{
+        padding: 4vw 0vw 4vw 8vw;
+        font-size: 4.5vw;
+        text-decoration: none;
+        display: block;
+    }
+    #submenulist0{
+        display: block;
+        padding: 8vw 0vw 3vw 7vw;
+        font-weight: bold;
+    }
+    
+    .menulist hr{
+        border: none; 
+        height: 1px; 
+        background-color: #fafafa; 
+        margin: 5vw 0vw 9vw 0vw;
+    }
+    
+    .show{
+        display: block;
+      }
+
+      #foot{
+          width: 100vw;
+          height: 100vh;
+          z-index: 5;
+          position: fixed;
+          top: 0%;
+          right: 0%;
+          background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      #foot  a{    
+          font-size: 5vw;
+          text-decoration: none;
+          color: black;
+        }
+
+        #foot li:active{
+            background-color: aliceblue;
+        }
+        
+        #foot ul{
+            transform: 4s;
+            padding: 2vw 0vw;
+            float: right;
+            height: 90vh;
+            width: 70vw;
+            background-color: white;
+            list-style-type: none;   
+      }
+      #foot ul li{
+          padding: 3vw 0vw 3vw 7vw; 
+      }
+
+      #foot hr{
+          display: none;
+      }
+
+      #foot .sub-footer{
+          display: grid;
+          text-align: center;
+          padding: 3vw 0vw;
+          transform: 4s;
+          float: right;
+          height: fit-content;
+          width: 70vw;
+          background-color: white;
+          list-style-type: none;
+      }
+
+      #foot .sub-footer a{
+          font-size: xx-small;
+          line-height: 15px;
+      }
+    
+    
+    
+    /* footer part start hare */
+    }

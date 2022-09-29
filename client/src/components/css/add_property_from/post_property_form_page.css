@@ -1,0 +1,266 @@
+@media screen and (min-width: 1000px) {
+
+
+  .property_info {
+    padding: 0.8vw;
+    margin: 0.1%auto;
+    margin-top: 1.3vw;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+  }
+
+  #preview > img {
+    margin: 5px;
+  }
+
+  .formbox {
+    background-color: #ffffff;
+    padding: 2vw 3vw;
+    margin: auto;
+    font-family: Raleway;
+    width: 70%;
+    min-width: 300px;
+    box-shadow: 0px 0px 10px #f2f2f2;
+  }
+
+  /* to gove style to all lables and input */
+  .formbox label {
+    font-weight: bold;
+    color: #333333;
+    margin: 0.4vw 0vw;
+  }
+  .formbox select {
+    border: 1px solid #bbbbbb;
+    font-size: 14px;
+    padding: 10px 5px;
+    color: #555;
+    background-color: white;
+  }
+  .formbox input {
+    border: 1px solid #bbbbbb;
+    font-size: 14px;
+    padding: 10px 5px;
+    width: 100%;
+    /* height: 2vw; */
+  }
+
+  /* Hide all steps by default: */
+  .tab {
+    min-height: 30vh;
+    /* border: 1px solid black; */
+    padding: 2vw;
+    /* display: none; */
+  }
+
+  /* styles for frist tab start from hare */
+
+  .property_deatiles {
+    display: grid;
+    grid-template-areas:
+      "available_for ownership_type"
+      "type property_age"
+      "floor property_area"
+      "furnished none";
+    grid-auto-columns: 31vw;
+    margin: -2%;
+  }
+
+  .available_for {
+    grid-area: available_for;
+  }
+  .ownership_type {
+    grid-area: ownership_type;
+  }
+  .type {
+    grid-area: type;
+  }
+  .property_age {
+    grid-area: property_age;
+  }
+  .floor {
+    grid-area: floor;
+  }
+  /* this class have some diffrent styling */
+  .property_area {
+    grid-area: property_area;
+    padding: 1vw;
+    margin: 4px;
+  }
+  .furnished {
+    grid-area: furnished;
+  }
+
+  .available_for,
+  .ownership_type,
+  .type,
+  .property_age,
+  .floor,
+  .furnished {
+    max-width: 430px;
+    display: grid;
+    padding: 1vw;
+    margin: 4px;
+  }
+
+  .area_unit {
+    max-width: 398px;
+    display: flex;
+    border: 1px solid #bbb;
+  }
+  .area_unit input,
+  .area_unit select {
+    border: none;
+  }
+
+  /* styles for frist tab end hare */
+
+  .location_deatiles {
+    display: grid;
+    grid-template-areas:
+      "city locality"
+      "landmark address";
+    grid-gap: 1.5vw;
+
+  }
+
+  .city {
+    grid-area: city;
+    display: grid;
+    margin: 0%;
+  }
+
+  .locality {
+    grid-area: locality;
+  }
+  .landmark {
+    grid-area: landmark;
+  }
+  .address {
+    grid-area: address;
+  }
+
+  .Rentail_deatiles {
+    display: grid;
+    grid-template-areas:
+      "expected_rent monthaly_maintenance"
+      "rent_negotiable deposit"
+      "lease_duration lockin_period"
+      "availabel_from none";
+    grid-gap: 2vw;
+  }
+
+  .expected_rent {
+    grid-template-areas: expected_rent;
+  }
+  .monthaly_maintenance {
+    grid-template-areas: monthaly_maintenance;
+  }
+  .rent_negotiable {
+    grid-template-areas: rent_negotiable;
+  }
+  .deposit {
+    grid-template-areas: deposit;
+  }
+  .lease_duration {
+    grid-template-areas: lease_duration;
+  }
+  .lockin_period {
+    grid-template-areas: lockin_period;
+  }
+  .availabel_from {
+    grid-template-areas: availabel_from;
+  }
+
+  .availabel_from,
+  .lockin_period,
+  .lease_duration,
+  .deposit,
+  .rent_negotiable,
+  .monthaly_maintenance,
+  .expected_rent {
+    display: grid;
+  }
+
+  .facilities {
+    display: grid;
+    grid-template-areas:
+      "parking washroom"
+      "security none";
+    grid-gap: 1.5vw 3vw;
+  }
+
+  .parking {
+    grid-template-areas: parking;
+    display: grid;
+  }
+  .washroom {
+    grid-template-areas: washroom;
+    display: grid;
+  }
+  .security {
+    grid-template-areas: security;
+    display: grid;
+  }
+
+ 
+  .additional_information {
+    display: grid;
+  }
+
+  #discription {
+    margin: 0.5% 0%;
+    width: auto;
+    padding: 1%;
+  }
+
+  /* Mark input boxes that gets an error on validation: */
+  .invalid {
+    background-color: #ffdddd;
+  }
+
+  .formbox button {
+    background-color: #04aa6d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+  }
+
+  .formbox button:hover {
+    z-index: -1;
+    scale: 1.1;
+    transition: ease-in-out 0.6s;
+  }
+
+  #prevBtn {
+    float: left;
+    background-color: #bbbbbb;
+  }
+  #nextBtn {
+    float: right;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    margin: 0.4vw 1vw;
+    padding: 0.3vw;
+    display: inline-block;
+    opacity: 0.8;
+  }
+
+  .step.active {
+    opacity: 1;
+    border-bottom: 5px solid cadetblue;
+    /* transition: 100ms; */
+  }
+
+
+
+  #submit {
+    margin: 3% 45% 0% 45%;
+  }
+}

@@ -1,0 +1,40 @@
+@media screen and  (max-width:1000px){
+  
+  
+    .inline {
+      background: white;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      width: 100%;
+      margin-left: -8px;
+      padding: 1vw 3vw;
+      transform: .3s ease-in-out;
+      position: sticky;
+      top: 13vw;
+      z-index: 3;
+    }
+
+    .inline::-webkit-scrollbar{
+      display: none;
+    }
+    
+     
+    .filter, 
+    .filter select{
+      font-size: 16px;
+      border: 1px solid rgb(221, 220, 220);
+      margin: 2.5vw 2.5vw 2.5vw 0.5vw;
+      padding: 0vw 3%;
+      height: 4vh;
+      border-radius: 23vh;
+      width: auto;
+      background-color: white;
+  }
+
+.filter:hover{
+    border:1px solid purple;
+}
+  
+  }
+  

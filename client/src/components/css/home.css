@@ -1,0 +1,189 @@
+/* for include font-femily in html */
+html{
+    font-family: 'Quicksand', 'Circular';
+}
+@media screen and (min-width: 1000px){ 
+
+
+
+    /* this style class for front image that at the starting */
+    .front {
+        padding:10.1vh;
+        width: auto;
+        height: 88.1vh;
+        box-shadow: 0px 3vh 0px .8vh black;
+        background-repeat: no-repeat;
+        background-color: #1f1f1f;
+        background-size: cover;
+        border-radius: 0.2vw;
+        background-image: url(../media/images/front.jpg);
+        background-position-y: center;
+    }
+    
+
+    .lines {
+        color: white;
+        font-size: 3.5vw;
+        margin: 14%;
+        text-align: center;
+    }
+
+
+
+.home_elements{
+    padding: 3vw 5vw 2vw 13vw;
+}
+
+
+
+    /* class for large font size */
+    p.large-font{
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: 1.7vw;
+    }
+
+
+
+    /* property-categaries classes */
+    /* .property-categaries{margin-left:4vw;} */
+    .property-categaries a{
+        text-decoration: none;
+    }
+    .property-categaries h1{
+        color:white;
+        padding: 1.5vw 2vw;
+        font-size:2vw ;
+        text-shadow: 0px 0px 2px #4e4e4e;
+        }
+       
+          /* categaroes list on home page  */
+
+    /* css for all box exclude home box */
+    .categary-box{
+        z-index: -1;
+        margin: 2vw;
+        width: 20vw;
+        height:20vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        display: inline-block;
+        cursor: pointer;    
+        border: none;
+    }
+    
+    
+    /* homes  */
+    .home{
+        cursor: pointer;
+        margin:2vw;
+        width: 20vw;
+        height:20vw;
+        background-image: url('../media/images/home.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        display: inline-block;
+        border: none;
+    }
+
+    .shops{ background-image: url('../media/images/shop.jpg');}
+    .showrooms{ background-image: url('../media/images/home.jpg');}
+    .room{ background-image: url('../media/images/room.jpg');}
+    .land{ background-image: url('../media/images/land.jpg');}
+    .office{ background-image: url('../media/images/office.jpg');}
+    .hostel-pg{ background-image: url('../media/images/hostel.jpg');}
+    .flat{ background-image: url('../media/images/flat.jpg');}
+    .warehouse{ background-image: url('../media/images/warehouse.jpg');}
+
+/* main part end hare */
+}
+
+
+@media screen and (max-width: 1000px){ 
+
+    
+
+
+/* main part start hare */
+main{
+    margin:0% ;
+    background-color: rgb(245, 245, 245);
+}
+
+
+      /* this style class for front image that at the starting */
+      .front{
+        position: relative;
+        left: -3vw;
+        width: 100vw;
+        height: 70vw;
+        background-repeat: no-repeat;
+        background-color: #1f1f1f;
+        background-size: cover;
+        border-radius: 0.2vw;
+        background-image: url(../media/images/front.jpg);
+        background-position-y: center;
+        overflow: hidden;
+    
+      }
+    
+      
+/* class for large font size */
+p.large-font{
+    font-size: 6vw;
+    font-weight: bolder;
+    margin-left: 2vw;
+}
+
+/* property-categaries classes */
+.property-categaries{padding:.9vw;}
+.property-categaries a{
+    text-decoration: none;
+}
+.property-categaries h1{    
+    color:white;
+    padding: 1.5vw 2vw;
+    font-size:4vw ;
+}
+
+/* categaroes list on home page  */
+
+/* homes  */
+.home{
+    margin:0vw;
+    width: 92vw;
+    height:50vw;
+    background-image: url('../media/images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    display: block;
+    border: none;
+}
+
+/* css for all categary box excludes home  */
+.categary-box{
+    margin: 3.5vw 2vw 0vw 0vw;
+    width: 44.45vw;
+    height:65vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    display: inline-block;
+    border: none;
+}
+
+.shops{ background-image: url('../media/images/shop.jpg');}
+.showrooms{ background-image: url('../media/images/home.jpg');}
+.room{ background-image: url('../media/images/room.jpg');}
+.land{ background-image: url('../media/images/land.jpg');}
+.office{ background-image: url('../media/images/office.jpg');}
+.hostel-pg{ background-image: url('../media/images/hostel.jpg');}
+.flat{ background-image: url('../media/images/flat.jpg');}
+.warehouse{ background-image: url('../media/images/warehouse.jpg');}
+
+
+
+}

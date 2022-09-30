@@ -1,5 +1,4 @@
 // import logo from "./logo.svg";
-import "./components/css/app.css";
 
 import { Header } from "./components/js/header";
 import { Footer } from "./components/js/footer";

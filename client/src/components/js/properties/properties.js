@@ -104,7 +104,7 @@ export function Properties({ filter, changeFilterValue }) {
       let protocol = window.location.protocol;
 let domain = window.location.hostname;
 let port  = window.location.port
-      const response = await fetch(`${protocol}//${domain}:${port}/properties/`);
+      const response = await fetch(`${protocol}//${domain}:${port}/property/`);
 
       if (!response.ok) {
         const message = `An error occured: ${response.statusText}`;

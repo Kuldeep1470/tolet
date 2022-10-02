@@ -57,11 +57,11 @@
 
   .property-images {
     border-radius: 10px;
-    width: max-content;
     margin:1.5vw 1.5vw 30px;
     height: max-content;
-    /* display: grid; */
-
+    width: min-content;
+    overflow: hidden;
+    
   }
 
   /* image slideshow container start hare  */

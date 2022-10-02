@@ -20,7 +20,7 @@ const ObjectId = require("mongodb").ObjectId;
 
 const storage = multer.diskStorage({
   destination: (req, file, callback)=>{
-    callback(null,"../client/public/uploade")
+    callback(null,"./client/build/uploade")
   },
   filename: (req, file, callback)=>{
     callback(null, file.originalname);
@@ -31,7 +31,7 @@ const upload = multer({storage: storage});
 
 
 // This section will help you get a list of all the records.
-recordRoutes.route("/properties").get(function (req, res) {
+recordRoutes.route("/property").get(function (req, res) {
   let db_connect = dbo.getDb("toletplus");
   db_connect
     .collection("properties")
